@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centratura {
+    width: 80%;
+    margin: auto;
+}
+
+
+div.centratura::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    background-color: yellow;
+    margin-bottom: 10px;
+
+}
+
+#primo {
+    height: 400px;
+    width: 25%;
+    background-color: pink;
+    float: left;
+}
+
+main {
+    height: 700px;
+    width: calc(50% - 60px);
+    background-color: purple;
+    margin-left: 30px;
+    margin-right: 30px;
+    float: left;
+}
+#secondo {
+    height: 300px;
+    width: 25%;
+    background-color: pink;
+    float: left;
+}
+
+.sotto {
+    height: 300px;
+    width: 25%;
+    background-color: pink;
+    margin-top: 20px;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    margin-top: 10px;
+}
